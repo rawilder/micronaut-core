@@ -57,7 +57,7 @@ dependencies {
     testRuntimeOnly dependencyVersion("tomcatJdbc")
     testRuntimeOnly dependencyVersion("h2")
     testRuntimeOnly "org.junit.vintage:junit-vintage-engine:$junitVersion"
-    testRuntimeOnly "ch.qos.logback:logback-classic:1.2.3"
+    testRuntimeOnly "ch.qos.logback:logback-classic:1.4.1"
     testRuntimeOnly group: 'com.amazonaws', name: 'aws-java-sdk-lambda', version: '1.11.920'
 
     // needed for HTTP/2 tests

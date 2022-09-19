@@ -33,7 +33,7 @@ dependencies {
     compileOnly "com.github.ben-manes.caffeine:caffeine:$caffeineVersion"
     compileOnly "org.jetbrains.kotlinx:kotlinx-coroutines-core:$kotlinCoroutinesVersion"
     compileOnly "org.jetbrains.kotlinx:kotlinx-coroutines-reactive:$kotlinCoroutinesVersion"
-    compileOnly "ch.qos.logback:logback-classic:1.2.3"
+    compileOnly "ch.qos.logback:logback-classic:1.4.1"
     testImplementation "ch.qos.logback:logback-classic:1.2.3"
 
     testAnnotationProcessor project(":inject-java")
