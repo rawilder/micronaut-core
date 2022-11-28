@@ -44,7 +44,7 @@ dependencies {
     testImplementation dependencyVersion("rxjava2")
     testImplementation(dependencyModuleVersion("netty", "netty-transport-native-epoll") + ":linux-x86_64")
     testImplementation(dependencyModuleVersion("netty", "netty-transport-native-kqueue") + ":osx-x86_64")
-    testImplementation "ch.qos.logback:logback-classic:1.2.3"
+    testImplementation "ch.qos.logback:logback-classic:1.4.5"
     testImplementation dependencyModuleVersion("micronaut.test", "micronaut-test-junit5"), {
         exclude module:'micronaut-runtime'
         exclude module:'micronaut-inject'
